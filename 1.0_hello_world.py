@@ -23,15 +23,19 @@ DELIVERABLE
 """
 
 # 1. In:
+# The program takes a message and a number of repetitions as input.
+
 # 2. Process:
+# The program repeats the chosen message five times and adds a number to each line.
+
 # 3. Out:
+# The program displays the message five times, with each line numbered from 1 to 5.
+
 # 4. My message, and why:
+# My message is "Camonin" because it is my last name.
+# I chose it because it is personal and represents me.
 
 
 # Your code below
-print("Hello")
-print("1. Camonin")
-print("2. Camonin")
-print("3. Camonin")
-print("4. Camonin")
-print("5. Camonin")
+for i in range(1, 6):
+    print(f"{i}. Camonin")
