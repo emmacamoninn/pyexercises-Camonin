@@ -161,3 +161,91 @@ I learned how to use four different string methods in Python.
 I tested the four methods with a sentence about music. The results were what I expected.
 
 I also learned that these methods are useful for cleaning and transforming text.
+
+---
+## 2026-11-11 11:15, in .
+
+**Me:** Why does Python raise an error when dividing by zero, and how can an if statement prevent this error?
+
+**Tutor:**
+
+Concept: Handling division by zero with an if statement.
+
+Pattern:
+```python
+# TODO: Check if divisor is zero before dividing
+dividend = 10
+divisor = 0
+
+if divisor != 0:
+    result = dividend / divisor
+    print("Result:", result)
+else:
+    print("Cannot divide by zero!")
+```
+
+Question: Which operator is used in the condition to check if the divisor is not zero?
+
+---
+## 2026-11-11 11:16, in .
+
+**Me:** !=
+
+**Tutor:**
+
+Concept: Using the inequality operator to guard against division by zero.
+
+Pattern:
+```python
+# TODO: Replace ??? with the correct operator
+dividend = 8
+divisor = 2
+
+if divisor ??? 0:
+    result = dividend / divisor
+    print("Result:", result)
+else:
+    print("Cannot divide by zero!")
+```
+
+Question: What operator tests “not equal to zero”?
+
+---
+## 2026-11-11 11:16, in .
+
+**Me:** !=
+
+**Tutor:**
+
+Concept: Using the inequality operator to guard against division by zero.
+
+Pattern:
+```python
+# TODO: Replace ??? with the correct operator
+dividend = 8
+divisor = 2
+
+if divisor ??? 0:
+    result = dividend / divisor
+    print("Result:", result)
+else:
+    print("Cannot divide by zero!")
+```
+
+Question: What operator tests “not equal to zero”?
+
+**My notes — Exercise 3.0**
+
+I learned how to use `float()` to convert user input into numbers.
+
+I used the operators `+`, `-`, `*` and `/` to perform addition, subtraction, multiplication and division.
+
+I learned how to use an `if` statement to check if the second number is equal to zero before dividing.
+
+I used the `!=` operator, which means "not equal to", to check that the divisor is not zero.
+
+I tested my program with 7 and 2. The division result was 3.5.
+
+I also tested it with 7 and 0. The program displayed a message instead of trying to divide by zero.
+
+I understood how to prevent a division by zero error using an `if` statement.
