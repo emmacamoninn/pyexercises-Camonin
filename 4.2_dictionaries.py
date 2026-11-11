@@ -23,10 +23,52 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: Information about a social media post, including its platform,
+# brand, format, target audience, publication date, and objective.
+
+# 2. Process: The program stores the information in a dictionary,
+# reads one field, updates one field, removes one field,
+# and displays all the remaining fields with their values.
+
+# 3. Out: The original information, the updated information,
+# and all the remaining fields. The program also handles
+# a field that does not exist.
+
 # 4. My object, my five fields, and why those:
+# My object is a social media post. I chose the platform, brand,
+# format, target audience, publication date, and objective
+# because these details are useful when planning
+# and managing social media content.
 
 
 # Your code below
+
+social_media_post = {
+    "platform": "Instagram",
+    "brand": "Dior",
+    "format": "Reel",
+    "target_audience": "Young adults",
+    "publication_date": "December 10",
+    "objective": "Increase brand awareness"
+}
+
+# Read one field
+print("Platform:", social_media_post["platform"])
+
+# Change one field
+social_media_post["objective"] = "Promote a new collection"
+print("Updated objective:", social_media_post["objective"])
+
+# Remove one field
+del social_media_post["format"]
+
+# Display all remaining fields
+for field, value in social_media_post.items():
+    print(field, ":", value)
+
+# Check a field that does not exist
+print("Hashtags:", social_media_post.get("hashtags", "Not available"))
+
+# Check: Using social_media_post["hashtags"] would raise a KeyError
+# because this field does not exist.
+# The get() method avoids this error and displays "Not available".
