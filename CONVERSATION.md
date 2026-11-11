@@ -249,3 +249,253 @@ I tested my program with 7 and 2. The division result was 3.5.
 I also tested it with 7 and 0. The program displayed a message instead of trying to divide by zero.
 
 I understood how to prevent a division by zero error using an `if` statement.
+
+---
+## 2026-11-11 11:47, in .
+
+**Me:** How does the modulo operator (%) help determine whether a number is odd or even in Python?
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does `number % 2` return when the number is even?
+
+---
+## 2026-11-11 11:47, in .
+
+**Me:** 0
+
+**Tutor:**
+
+Checking evenness with the modulo operator.
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What value does `number % 2` give when the number is odd?
+
+---
+## 2026-11-11 11:47, in .
+
+**Me:** 1
+
+**Tutor:**
+
+The modulo operator (%) gives the remainder after division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(4)` evaluate to?
+
+---
+## 2026-11-11 11:48, in .
+
+**Me:** True
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(5)` evaluate to?
+
+---
+## 2026-11-11 11:48, in .
+
+**Me:** False
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(0)` evaluate to?
+
+---
+## 2026-11-11 11:48, in .
+
+**Me:** True
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(-3)` evaluate to?
+
+---
+## 2026-11-11 11:49, in .
+
+**Me:** False
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(-4)` evaluate to?
+
+---
+## 2026-11-11 11:49, in .
+
+**Me:** True
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(-2)` evaluate to?
+
+---
+## 2026-11-11 11:49, in .
+
+**Me:** True
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(7)` evaluate to?
+
+---
+## 2026-11-11 11:49, in .
+
+**Me:** False
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(10)` evaluate to?
+
+---
+## 2026-11-11 11:50, in .
+
+**Me:** True
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(1)` evaluate to?
+
+---
+## 2026-11-11 11:50, in .
+
+**Me:** False
+
+**Tutor:**
+
+The modulo operator (%) returns the remainder of a division.
+
+Pattern to check if a number is even or odd:
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    remainder = number % 2
+    return remainder == 0
+```
+
+What does the expression `is_even(2)` evaluate to?
+
+**My notes — Exercise 3.1 (AI Tutor)**
+
+I learned that the modulo operator `%` returns the remainder of a division.
+
+I understood that when a number is even, `number % 2` returns 0, and when a number is odd, it returns 1.
+
+I also learned that a function can return `True` or `False` depending on whether a number is even.
+
+I tested my understanding with different examples, including positive numbers, negative numbers and zero.
+
+The tutor asked me several questions, and I understood how to identify odd and even numbers using the modulo operator.
