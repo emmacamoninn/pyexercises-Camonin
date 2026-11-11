@@ -499,3 +499,99 @@ I also learned that a function can return `True` or `False` depending on whether
 I tested my understanding with different examples, including positive numbers, negative numbers and zero.
 
 The tutor asked me several questions, and I understood how to identify odd and even numbers using the modulo operator.
+
+---
+## 2026-11-11 12:23, in .
+
+**Me:** What is the difference between a list and a variable in Python, and how can I access an item in a list using its index?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-11 12:23, in .
+
+**Me:** How does sorted() work with a list of strings in Python?
+
+**Tutor:**
+
+Sorting strings alphabetically.
+```python
+words = ["beta", "alpha", "gamma"]
+# TODO: sort the list and store it in sorted_words
+```
+
+What argument does sorted() take to sort in reverse order?
+
+---
+## 2026-11-11 12:24, in .
+
+**Me:** reverse=True
+
+**Tutor:**
+
+Sorting in reverse order.
+```python
+words = ["beta", "alpha", "gamma"]
+# TODO: sort the list in reverse and store it in sorted_words
+```
+
+What is the name of the parameter that controls the order?
+
+---
+## 2026-11-11 12:25, in .
+
+**Me:** reverse
+
+**Tutor:**
+
+Sorting with a key function.
+```python
+words = ["beta", "alpha", "gamma"]
+# TODO: sort by word length, shortest first, store in sorted_words
+```
+
+Which function is passed as the key argument?
+
+---
+## 2026-11-11 12:25, in .
+
+**Me:** len
+
+**Tutor:**
+
+Sorting by a custom key.
+```python
+words = ["beta", "alpha", "gamma"]
+# TODO: sort by the last letter of each word, store in sorted_words
+```
+
+Which built-in function gives the last letter of a string?
+
+---
+## 2026-11-11 12:25, in .
+
+**Me:** ord
+
+**Tutor:**
+
+Refused, off topic.
+
+**My notes — Exercise 4.0**
+
+I learned how to create a list in Python using square brackets `[]`.
+
+I created a list of eight marketing channels: Instagram, TikTok, LinkedIn, YouTube, Email, Website, Influencers and Events.
+
+I used `print()` to display the whole list.
+
+I learned how to access one specific item using its index. I used `[2]` to display LinkedIn because Python starts counting from 0.
+
+I used `sorted()` to sort the list alphabetically and stored the result in a new variable called `sorted_channels`.
+
+I used `len()` to count the number of items in my list. The result was 8.
+
+I also learned that `sorted()` can use the `reverse=True` argument to sort a list in reverse order.
+
+I tested my program and all the results were correct.
