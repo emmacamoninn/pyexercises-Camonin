@@ -595,3 +595,73 @@ I used `len()` to count the number of items in my list. The result was 8.
 I also learned that `sorted()` can use the `reverse=True` argument to sort a list in reverse order.
 
 I tested my program and all the results were correct.
+
+---
+## 2026-11-11 12:31, in .
+
+**Me:** What is the difference between sort() and sorted() when working with a Python list?
+
+**Tutor:**
+
+**Sorting a list in place vs. returning a new list**
+`sort()` changes the original list and returns `None`.
+`sorted()` returns a new sorted list and leaves the original unchanged.
+
+```python
+# TODO: toy list
+numbers = [3, 1, 4, 1, 5]
+
+# in-place sort
+numbers.sort()   # TODO: what does this return?
+
+# new sorted list
+ordered = sorted(numbers)  # TODO: what is stored in ordered?
+```
+
+Which built-in function must you use if you want to keep the original list intact and still have a sorted copy?
+
+---
+## 2026-11-11 12:32, in .
+
+**Me:** sorted()
+
+**Tutor:**
+
+Built-in function to create a sorted copy
+`sorted(iterable, key=None, reverse=False)`
+
+```python
+# toy list
+prices = [29.99, 19.99, 39.99]
+
+# keep original, get a new sorted list
+ascending = sorted(prices)          # TODO: ascending order
+descending = sorted(prices, reverse=True)  # TODO: descending order
+```
+
+Which argument controls the order of the result?
+
+---
+## 2026-11-11 12:32, in .
+
+**Me:** reverse
+
+**Tutor:**
+
+The `reverse` argument controls the order of the result.
+
+**My notes — Exercise 4.1**
+
+I learned the difference between `sorted()` and `.sort()`.
+
+- `sorted()` creates a new sorted list and does not modify the original list.
+- `.sort()` sorts the list directly and modifies the original list.
+- `reverse=True` allows me to sort a list in reverse alphabetical order.
+- `.reverse()` reverses the order of the elements in a list.
+- `.copy()` creates a copy of the list, allowing me to modify it without changing the original.
+
+I used these methods to display my marketing channels in four different orders: alphabetical, reverse alphabetical, reversed order and sorted order.
+
+Finally, I compared the original list at the beginning and at the end of the program. Both lists were identical, which confirmed that the original list was preserved.
+
+I tested the program and all four arrangements worked correctly.
