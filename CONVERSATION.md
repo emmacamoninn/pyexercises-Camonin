@@ -107,3 +107,57 @@ I also learned that the `int()` function converts a string into an integer.
 I tried adding an integer to a string and got a TypeError.
 
 I understood why this error happens and how the `int()` function can help solve this problem.
+
+---
+## 2026-11-11 11:02, in .
+
+**Me:** What is the difference between strip(), upper(), lower() and replace() in Python?
+
+**Tutor:**
+
+String cleaning and case control.
+
+- strip() removes leading and trailing whitespace.
+- upper() converts the string to uppercase.
+- lower() converts the string to lowercase.
+- replace(old, new) swaps every occurrence of old with new.
+
+```python
+text = "  Hello, World!  "
+
+clean1 = text.strip()      # TODO: what is stored in clean1?
+clean2 = clean1.upper()    # TODO: what is stored in clean2?
+clean3 = clean2.lower()    # TODO: what is stored in clean3?
+clean4 = clean3.replace("world", "Python")  # TODO: what is stored in clean4?
+```
+
+Which function would you use to change “  data  ” into “data”?
+
+---
+## 2026-11-11 11:02, in .
+
+**Me:** strip()
+
+**Tutor:**
+
+String cleaning.
+
+```python
+dirty = "  data  "
+clean = dirty.strip()  # TODO: what is stored in clean?
+```
+
+Which function would you use to change “data” into “DATA”?
+
+**My notes — Exercise 2.1**
+
+I learned how to use four different string methods in Python.
+
+- strip() removes spaces at the beginning and end of a sentence.
+- upper() converts all letters to uppercase.
+- lower() converts all letters to lowercase.
+- replace() replaces specific words or characters.
+
+I tested the four methods with a sentence about music. The results were what I expected.
+
+I also learned that these methods are useful for cleaning and transforming text.
