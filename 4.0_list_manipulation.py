@@ -26,37 +26,41 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: A list of eight marketing channels.
+
+# 2. Process: The program stores the channels in a list.
+# It displays the whole list, one selected channel,
+# the sorted list, and counts the number of channels.
+
+# 3. Out: The whole list, one selected channel,
+# the sorted list, and the total number of channels.
+
+# 4. My list is about marketing channels.
+# I computed the number of channels because it shows
+# how many different channels are used in a marketing strategy.
 
 
 # Your code below
-number_1 = 2
-numer_2 = 4
-number_3 = 6
-number_4 = 8
-number_5 = 10
+marketing_channels = [
+    "Instagram",
+    "TikTok",
+    "LinkedIn",
+    "YouTube",
+    "Email",
+    "Website",
+    "Influencers",
+    "Events"
+]
 
-print("The first number is : ", number_1)
-print("The second number is : ", numer_2)
-print("The third number is : ", number_3)
-print("The fourth number is : ", number_4)
-print("The fifth number is : ", number_5)
+# Display the whole list
+print("Whole list:", marketing_channels)
 
-numbers = (3, 5, 7, 9, 11, 13, 15, 17, 1, 2, 4, 6, 8, 10)
-print("The whole list is : ", numbers)
-print("The second item of the list is : ", numbers(1))
-print("The first item of the list is : ", numbers(0))
+# Display one selected channel
+print("One channel:", marketing_channels[2])
 
-sorted_list = numbers.sort()
-print("The sorted list is : ", sorted_list)
+# Sort the list alphabetically
+sorted_channels = sorted(marketing_channels)
+print("Sorted list:", sorted_channels)
 
-remove_numbers = numbers.pop()
-print("The removed item is : ", remove_numbers)
-print("The list after removing the last item is : ", numbers)
-print("The sorted list after removing the last item is : ", sorted_list)
-removed_number_last = sorted_list.pop()
-print("The removed item from the sorted list is : ", removed_number_last)
-print("The sorted list after removing the last item is : ", sorted_list)
+# Count the number of channels
+print("Number of channels:", len(marketing_channels))
