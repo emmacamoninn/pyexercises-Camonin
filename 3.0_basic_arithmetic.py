@@ -24,35 +24,37 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: Two numbers entered by the user.
+
+# 2. Process: The program converts the inputs into numbers
+# and calculates addition, subtraction, multiplication and division.
+
+# 3. Out: The results of the four mathematical operations.
+
 # 4. What happens when the second number is zero, and why:
-int()
+# The program displays a message instead of calculating the division.
+# I chose this option because division by zero is not possible,
+# but the other calculations can still be performed.
+
 
 
 # Your code below
-number_1 = int(input("Enter the first number: "))
-number_2 = int(input("Enter the second number: "))
+number_1 = float(input("Enter the first number: "))
+number_2 = float(input("Enter the second number: "))
 
-print("The first number is : ", number_1)
-print("The second number is : ", number_2)
+print("Addition:", number_1 + number_2)
+print("Subtraction:", number_1 - number_2)
+print("Multiplication:", number_1 * number_2)
 
-# Sum of two number
-sum = number_1 + number_2
-print("The sum of two numbers is: ", sum)
-# Difference of two numbers
-sum = number_1 - number_2
-print("The diff of the two numbers is: ", diff)
-
-#product of two numbers
-product = number_1 * number_2
-print("The product of two numbers is:", product)
-
-#division of two numbers
-
-if number_2 !=0:
-    division = number_1 / number_2
-    print("The division of two numbers is:", division)
+if number_2 == 0:
+    print("Division is not possible because you cannot divide by zero.")
 else:
-    print("The second number is zero")
+    print("Division:", number_1 / number_2)
+
+
+# Check:
+# 7 divided by 2 gives 3.5 because Python uses normal division (/).
+# If the program showed 3, it would mean integer division (//) was used.
+# When I entered 0 as the second number, the program displayed a message
+# instead of calculating the division.
+
