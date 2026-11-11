@@ -26,20 +26,29 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: The artist's name and the number of songs planned.
+
+# 2. Process: The program asks the user for two answers and stores them.
+
+# 3. Out: A sentence displaying the artist's name and the number of songs planned.
+
 # 4. My two fields, and what I would do with them:
+# I chose the artist's name and the number of songs to prepare
+# and organize a music project.
 
 
 # Your code below
-name = input("Enter your name:")
-age = input("Enter your age:")
+artist_name = input("What is the artist's name? ")
+number_of_songs = input("How many songs are planned? ")
 
-print("My name is ", name )
-print("My age is " , age)
+print(artist_name, "is preparing a music project with", number_of_songs, "songs.")
 
-print("My name is " + name + "and my age is " + age)
+print(number_of_songs + 1)
+# Test 1: When I entered an empty line, Python stored an empty string.
+# The program displayed the sentence but returned a TypeError when adding 1.
 
+# Test 2: When I entered a space, Python stored a string containing a space.
+# The program displayed the sentence but returned a TypeError when adding 1.
 
-print
+# Test 3: When I entered text instead of a number, Python stored a string.
+# The program displayed the sentence but returned a TypeError when adding 1.
