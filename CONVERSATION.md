@@ -855,3 +855,131 @@ I learned how to use for loops to perform the same operation on every item in a 
 I also learned that enumerate() returns pairs containing an index and an item. The index is an integer (int) and the item is a string (str).
 
 I tested my program and it displayed exactly eight lines, one for each marketing channel. All the results were correct.
+
+---
+## 2026-11-11 12:57, in .
+
+**Me:** How does the while loop stop when the user confirms the campaign?
+
+**Tutor:**
+
+A while loop keeps running as long as its condition is True.
+To stop it when the user confirms, change the condition to keep looping while the answer is NOT “yes”.
+
+```python
+confirmed = None
+while confirmed != "yes":      # loop runs while confirmed is NOT "yes"
+    answer = input("Confirm campaign? (yes/no): ").lower()
+    if answer == "yes":
+        confirmed = "yes"      # this makes the loop stop next time
+    else:
+        print("Please type 'yes' to confirm.")
+```
+
+What value must `confirmed` start with so the loop runs at least once?
+
+---
+## 2026-11-11 12:57, in .
+
+**Me:** False
+
+**Tutor:**
+
+A while loop stops when its condition becomes False.
+To stop when the user confirms, the condition must be the opposite of “confirmed”.
+
+```python
+confirmed = False              # start False so the loop runs
+while not confirmed:           # loop runs while confirmed is False
+    answer = input("Confirm campaign? (yes/no): ").lower()
+    if answer == "yes":
+        confirmed = True       # this makes the loop stop next time
+    else:
+        print("Please type 'yes' to confirm.")
+```
+
+Which keyword turns the Boolean value around?
+
+---
+## 2026-11-11 12:58, in .
+
+**Me:** not
+
+**Tutor:**
+
+A while loop stops when its condition evaluates to False.
+To stop when the user confirms, the condition must be the opposite of “confirmed”.
+
+```python
+confirmed = False              # start False so the loop runs
+while not confirmed:           # loop runs while confirmed is False
+    answer = input("Confirm campaign? (yes/no): ").lower()
+    if answer == "yes":
+        confirmed = True       # this makes the loop stop next time
+    else:
+        print("Please type 'yes' to confirm.")
+```
+
+What does `not confirmed` become when `confirmed` is True?
+
+---
+## 2026-11-11 12:58, in .
+
+**Me:** False
+
+**Tutor:**
+
+A while loop stops when its condition evaluates to False.
+To stop when the user confirms, the condition must be the opposite of “confirmed”.
+
+```python
+confirmed = False              # start False so the loop runs
+while not confirmed:           # loop runs while confirmed is False
+    answer = input("Confirm campaign? (yes/no): ").lower()
+    if answer == "yes":
+        confirmed = True       # this makes the loop stop next time
+    else:
+        print("Please type 'yes' to confirm.")
+```
+
+What does `not confirmed` become when `confirmed` is False?
+
+---
+## 2026-11-11 12:58, in .
+
+**Me:** True
+
+**Tutor:**
+
+A while loop stops when its condition evaluates to False.
+To stop when the user confirms, the condition must be the opposite of “confirmed”.
+
+```python
+confirmed = False              # start False so the loop runs
+while not confirmed:           # loop runs while confirmed is False
+    answer = input("Confirm campaign? (yes/no): ").lower()
+    if answer == "yes":
+        confirmed = True       # this makes the loop stop next time
+    else:
+        print("Please type 'yes' to confirm.")
+```
+
+What does `not confirmed` become when `confirmed` is False?
+
+My notes — Exercise 5.2
+
+I learned how to use a while loop to repeat an action until a condition is met.
+- I used while to repeat the question asking whether the marketing campaign was confirmed.
+- I created an attempts variable to count the number of attempts.
+- I set max_attempts = 5 to prevent the loop from running forever.
+- I used confirmed = False to indicate that the campaign was not confirmed at the beginning.
+- I used and to combine two conditions in the while loop.
+- I used not confirmed to continue the loop until the campaign is confirmed.
+- I used .strip() to remove extra spaces from the user's answer.
+- I used .lower() to accept answers written with capital letters.
+- I used if and else to display different messages depending on the result.
+I also learned that not reverses a Boolean value: not True becomes False, and not False becomes True.
+
+I tested my program with two situations. First, I entered "no" five times, and the program stopped after five attempts. Then, I entered "YES" with capital letters, and the campaign was confirmed after one attempt.
+
+Both tests worked correctly, and the program respected the maximum number of attempts.
