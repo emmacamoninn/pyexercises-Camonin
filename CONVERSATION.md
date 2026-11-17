@@ -1615,3 +1615,93 @@ Question: What is the delimiter argument for `csv.reader`?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 12:42, in .
+
+**Me:** What does the == operator do in Python when comparing two strings?
+
+**Tutor:**
+
+The == operator checks if two strings have the same characters in the same order.
+
+```python
+# Example
+string1 = "hello"
+string2 = "world"
+string3 = "hello"
+
+print(string1 == string2)  # TODO: What will this print?
+print(string1 == string3)  # TODO: What will this print?
+```
+
+What function can you use to check if a string starts with a specific substring?
+
+---
+## 2026-11-17 12:43, in .
+
+**Me:** startswith()
+
+**Tutor:**
+
+The startswith() method checks whether a string begins with a given substring.
+
+```python
+# Example
+text = "hello world"
+prefix = "hello"
+
+print(text.startswith(prefix))  # TODO: What will this print?
+print(text.startswith("world"))  # TODO: What will this print?
+```
+
+Which argument does the startswith() method take?
+
+---
+## 2026-11-17 12:43, in .
+
+**Me:** prefix
+
+**Tutor:**
+
+The startswith() method takes a substring (prefix) as its argument.
+
+```python
+# Example
+text = "hello world"
+prefix = "hello"
+
+result = text.startswith(prefix)  # TODO: What is the value of result?
+```
+
+What will the value of result be in this example?
+
+---
+## 2026-11-17 12:43, in .
+
+**Me:** True
+
+**Tutor:**
+
+The == operator returns a boolean (True or False) based on whether the two strings are identical.
+
+```python
+# Example
+string1 = "hello"
+string2 = "world"
+string3 = "hello"
+
+print(string1 == string2)  # TODO: What will this print?
+print(string1 == string3)  # TODO: What will this print?
+```
+
+What does the == operator return when comparing two identical strings?
+
+---
+## 2026-11-17 12:44, in .
+
+**Me:** True
+
+**Tutor:**
+
+Refused, off topic.
