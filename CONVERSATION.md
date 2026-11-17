@@ -1705,3 +1705,63 @@ What does the == operator return when comparing two identical strings?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 13:22, in .
+
+**Me:** What does the bitwise OR operator (|) do in Python?
+
+**Tutor:**
+
+Bitwise OR compares two numbers bit by bit and returns a new number whose bits are set to 1 if either of the corresponding bits in the inputs is 1.
+
+```python
+def bitwise_or_example(a: int, b: int) -> int:
+    # TODO: return the bitwise OR of a and b
+    return a | b
+```
+
+What is the result of `bitwise_or_example(5, 3)`?
+
+---
+## 2026-11-17 13:23, in .
+
+**Me:** 7
+
+**Tutor:**
+
+Bitwise OR sets each bit to 1 if at least one of the two bits is 1.
+
+```python
+def bitwise_or_example(a: int, b: int) -> int:
+    # TODO: return the bitwise OR of a and b
+    return a | b
+```
+
+What does `bitwise_or_example(10, 6)` return?
+
+---
+## 2026-11-17 13:23, in .
+
+**Me:** 14
+
+**Tutor:**
+
+Bitwise OR sets each bit to 1 if at least one of the two bits is 1.
+
+```python
+def bitwise_or_example(a: int, b: int) -> int:
+    # TODO: return the bitwise OR of a and b
+    return a | b
+```
+
+What is the return type annotation of the function?
+
+---
+## 2026-11-17 13:24, in .
+
+**Me:** int
+
+**Tutor:**
+
+Refused, off topic.
